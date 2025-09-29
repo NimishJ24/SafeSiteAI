@@ -17,18 +17,17 @@ This section showcases the output of the SafeSite AI system, from raw detections
 
 | Multi-Class PPE Detection |
 | :-----------------------: |
-| *[Add an image here showing YOLOv8 detecting multiple PPE items like helmets, vests, and masks in a single frame]* |
-| **(Placeholder for Detection Image)** |
+| ![Multi-Class PPE Detection ](asset/multiclassppe.jpg) |
+
 
 | Pose Verification (Helmet Check) |
 | :------------------------------: |
-| *[Add an image here demonstrating a "non-compliant" flag for a worker holding a helmet instead of wearing it]* |
-| **(Placeholder for Pose-Check Image)** |
+| ![Multi-Class PPE Detection ](asset/helmet1.jpg) |
+| ![Multi-Class PPE Detection ](asset/helmet2.jpg) |
 
-| Instance Segmentation in Crowded Scenes | Compliance Log Output |
-| :-------------------------------------: | :-------------------: |
-| *[Add an image here showing R-CNN correctly assigning PPE to multiple workers who are close together or overlapping]* | *[Add an image or code block here showing an example of the audit log (e.g., Image ID + Timestamp + Violation)]* |
-| **(Placeholder for Segmentation Image)** | **(Placeholder for Log Image)** |
+| Instance Segmentation in Crowded Scenes | 
+| :-------------------------------------: | 
+| ![Multi-Class PPE Detection ](asset/crowded.jpg) |
 
 ---
 
@@ -99,9 +98,9 @@ Training was successful, with all loss components (Box, Classification, DFL) sho
 The resources used and produced by this project are available at the links below.
 
 -   **Dataset**: The training dataset consists of over 3,800 labeled images.
-    -   ➡️ **[LINK TO YOUR DATASET HERE]**
+    -   ➡️ **(https://www.kaggle.com/code/nimishjain245/final-ml-project/notebook)**
 -   **Trained Model**: The final trained model is available in ONNX format for easy deployment.
-    -   ➡️ **[LINK TO YOUR TRAINED MODEL HERE]**
+    -   ➡️ **https://www.kaggle.com/code/nimishjain245/final-ml-project/notebook**
 
 ---
 
